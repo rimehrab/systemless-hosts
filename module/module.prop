@@ -1,0 +1,8 @@
+id=systemless-hosts
+name=systemless hosts
+version=v1.0
+versionCode=100
+author=Mehrab Mahmud Udoy
+description=Required module to use applications like AdAway
+updateJson=https://raw.githubusercontent.com/rimehrab/systemless-hosts/main/update.json
+supportUrl=https://t.me/itsrimehrab
