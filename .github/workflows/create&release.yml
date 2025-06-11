@@ -17,8 +17,9 @@ jobs:
           echo "version=$(jq -r '.version' update.json)" >> $GITHUB_ENV
 
       - name: Create Module Zip
-        cd module
-        zip -r ../systemless-hosts.zip *
+        run: |
+            cd module
+            zip -r ../systemless-hosts.zip *
 
       - name: Upload Release
         uses: softprops/action-gh-release@v2
